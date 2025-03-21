@@ -10,7 +10,7 @@ const linkData = [
 export default function Header() {
   const path = usePathname();
   return (
-    <div className="absolute z-10">
+    <div className="absolute z-10 top-0">
       <div className="flex justify-between p-8 w-screen pr-30 pl-30 text-white">
         <div className="text-3xl font-bold">
           <Link href={"/"}>Home</Link>

@@ -1,4 +1,6 @@
 import React from 'react'
+import { Button } from 'antd';
+
 
 export const metadata = {
   title: 'home',
@@ -8,6 +10,9 @@ export default function Page() {
   return (
     <div className='h-screen text-3xl text-white flex items-center justify-center '>
       welcome home
+      <Button type='primary'>
+        primary
+      </Button>
     </div>
   )
 }
